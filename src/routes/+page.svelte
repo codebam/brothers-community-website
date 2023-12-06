@@ -11,8 +11,8 @@
 <SearchBar posts={data.posts} />
 {#if browser}
 	<Carousel bind:this={carousel}>
-		<img src="/carousel0.jpg" alt="colourful mountains" />
-		<img src="/carousel1.jpg" alt="dark and raining" />
+		<img height="500px" src="/carousel0.jpg" alt="colourful mountains" />
+		<img height="500px" src="/carousel1.jpg" alt="dark and raining" />
 	</Carousel>
 {/if}
 <h1>Brothers International Community</h1>
