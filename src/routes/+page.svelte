@@ -30,7 +30,7 @@
 <style>
 	#topbar {
 		display: flex;
-		justify-content: end;
+		justify-content: space-between;
 	}
 	#ad {
 		text-align: center;
