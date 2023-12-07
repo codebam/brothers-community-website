@@ -13,7 +13,6 @@
 </script>
 
 <input bind:value={search} placeholder="search" />
-
 {#if results.length !== 0}
 	<ul>
 		{#each results as result}
@@ -21,3 +20,12 @@
 		{/each}
 	</ul>
 {/if}
+
+<style>
+	input {
+		border-radius: 0.5rem;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		padding: 1rem;
+	}
+</style>
