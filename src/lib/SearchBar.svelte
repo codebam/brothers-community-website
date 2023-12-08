@@ -28,7 +28,7 @@
 		height: 1em;
 		border-radius: 1rem;
 		padding: 0.5rem;
-		margin-top: 1em;
+		margin-top: 0.1em;
 		background-color: #2e3440;
 		color: white;
 		border-width: 0;

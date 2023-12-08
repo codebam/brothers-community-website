@@ -7,7 +7,7 @@
 </script>
 
 <div id="topbar">
-	<img height="75px" src="/brothers_logo.png" alt="brothers logo" />
+	<img height="32px" src="/brothers_logo.png" alt="brothers logo" />
 	<SearchBar posts={data.posts} />
 </div>
 {#if browser}
@@ -46,9 +46,17 @@
 	h3 {
 		color: #81a1c1;
 	}
+	img {
+		border-radius: 0.5rem;
+	}
 	#topbar {
 		display: flex;
 		justify-content: space-between;
+		height: 4rem;
+		padding-top: 2rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		background-color: #3b4252;
 	}
 	#content {
 		text-align: center;
