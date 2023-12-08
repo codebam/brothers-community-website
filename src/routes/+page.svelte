@@ -7,7 +7,7 @@
 </script>
 
 <div id="topbar">
-	<img width="100px" src="/brothers_logo.png" alt="brothers logo" />
+	<img height="75px" src="/brothers_logo.png" alt="brothers logo" />
 	<SearchBar posts={data.posts} />
 </div>
 {#if browser}
