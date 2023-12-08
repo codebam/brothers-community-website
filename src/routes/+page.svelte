@@ -31,8 +31,10 @@
 </div>
 <footer>
 	<div id="contact">
-		<a href="mailto:brotherscommunityinternational@gmail.com"> Email </a>
-		<a href="https://t.me/Brothers_in_law"> Telegram </a>
+		<a href="mailto:brotherscommunityinternational@gmail.com">
+			<img src="/email.svg" width="50px" /></a
+		>
+		<a href="https://t.me/Brothers_in_law"><img src="/telegram.svg" width="50px" /></a>
 	</div>
 </footer>
 
