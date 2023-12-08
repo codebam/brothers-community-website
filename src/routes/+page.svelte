@@ -19,8 +19,8 @@
 		autoplay={true}
 		autoplayDuration={5000}
 	>
-		<img height="250px" src="/carousel0.jpg" alt="colourful mountains" />
-		<img height="250px" src="/carousel1.jpg" alt="dark and raining" />
+		<img src="/carousel0.jpg" alt="colourful mountains" />
+		<img src="/carousel1.jpg" alt="dark and raining" />
 	</Carousel>
 {/if}
 <div id="content">
@@ -57,6 +57,7 @@
 		padding-left: 1rem;
 		padding-right: 1rem;
 		background-color: #3b4252;
+		margin-bottom: 1em;
 	}
 	#content {
 		text-align: center;
