@@ -37,6 +37,15 @@
 </footer>
 
 <style>
+	h1 {
+		color: #8fbcbb;
+	}
+	h2 {
+		color: #88c0d0;
+	}
+	h3 {
+		color: #81a1c1;
+	}
 	#topbar {
 		display: flex;
 		justify-content: space-between;

@@ -25,8 +25,9 @@
 
 <style>
 	input {
+		height: 1em;
 		border-radius: 1rem;
-		padding: 1rem;
-		margin-top: 0.5em;
+		padding: 0.5rem;
+		margin-top: 1em;
 	}
 </style>
