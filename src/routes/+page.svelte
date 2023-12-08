@@ -21,7 +21,6 @@
 	>
 		<img height="250px" src="/carousel0.jpg" alt="colourful mountains" />
 		<img height="250px" src="/carousel1.jpg" alt="dark and raining" />
-		<div id="ad">ad goes here <a href="/ad">click</a></div>
 	</Carousel>
 {/if}
 <div id="content">
@@ -41,9 +40,6 @@
 	#topbar {
 		display: flex;
 		justify-content: space-between;
-	}
-	#ad {
-		text-align: center;
 	}
 	#content {
 		text-align: center;
