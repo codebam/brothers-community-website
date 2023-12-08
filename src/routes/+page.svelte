@@ -30,10 +30,10 @@
 	<Posts posts={data.posts} />
 </div>
 <footer>
-	<p>
+	<div id="contact">
 		<a href="mailto:brotherscommunityinternational@gmail.com"> Email </a>
 		<a href="https://t.me/Brothers_in_law"> Telegram </a>
-	</p>
+	</div>
 </footer>
 
 <style>
@@ -44,7 +44,7 @@
 	#content {
 		text-align: center;
 	}
-	footer {
+	#contact {
 		display: flex;
 		justify-content: space-around;
 	}
