@@ -12,14 +12,16 @@
 	});
 </script>
 
-<input bind:value={search} placeholder="search" />
-{#if results.length !== 0}
-	<ul>
-		{#each results as result}
-			<li><a href={result.path}>{result.title}</a></li>
-		{/each}
-	</ul>
-{/if}
+<div>
+	<input bind:value={search} placeholder="search" />
+	{#if results.length !== 0}
+		<ul>
+			{#each results as result}
+				<li><a href={result.path}>{result.title}</a></li>
+			{/each}
+		</ul>
+	{/if}
+</div>
 
 <style>
 	input {
