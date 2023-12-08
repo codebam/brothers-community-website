@@ -3,7 +3,7 @@
 	export let posts: { path: string; meta: { title: string; date: string } }[];
 </script>
 
-<h4>Posts</h4>
+<h2>Posts</h2>
 <ul>
 	{#if posts}
 		{#each posts as post}

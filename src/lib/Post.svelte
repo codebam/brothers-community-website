@@ -3,9 +3,7 @@
 </script>
 
 <li>
-	<h5>
-		<a href={post.path}>
-			{post.meta.title}
-		</a>
-	</h5>
+	<a href={post.path}>
+		{post.meta.title}
+	</a>
 </li>

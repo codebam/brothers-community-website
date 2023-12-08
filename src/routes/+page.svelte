@@ -26,15 +26,17 @@
 {/if}
 <div id="content">
 	<h1>Brothers International Community</h1>
+	<h2>Join brothers community</h2>
+	<h3>Build trustworthy international connections</h3>
+	<Posts posts={data.posts} />
+</div>
+<footer>
 	<p>
 		<a href="mailto:brotherscommunityinternational@gmail.com">
 			brotherscommunityinternational@gmail.com
 		</a>
 	</p>
-	<h4>Join brothers community</h4>
-	<h5>Build trustworthy international connections</h5>
-	<Posts posts={data.posts} />
-</div>
+</footer>
 
 <style>
 	#topbar {
@@ -44,7 +46,8 @@
 	#ad {
 		text-align: center;
 	}
-	#content {
+	#content,
+	footer {
 		text-align: center;
 	}
 </style>
