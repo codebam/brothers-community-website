@@ -32,9 +32,8 @@
 </div>
 <footer>
 	<p>
-		<a href="mailto:brotherscommunityinternational@gmail.com">
-			brotherscommunityinternational@gmail.com
-		</a>
+		<a href="mailto:brotherscommunityinternational@gmail.com"> Email </a>
+		<a href="https://t.me/Brothers_in_law"> Telegram </a>
 	</p>
 </footer>
 
@@ -46,8 +45,11 @@
 	#ad {
 		text-align: center;
 	}
-	#content,
-	footer {
+	#content {
 		text-align: center;
+	}
+	footer {
+		display: flex;
+		justify-content: space-around;
 	}
 </style>
