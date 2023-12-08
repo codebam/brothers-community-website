@@ -11,7 +11,14 @@
 	<SearchBar posts={data.posts} />
 </div>
 {#if browser}
-	<Carousel arrows={false} dots={false} autoplay={true} autoplayDuration={5000}>
+	<Carousel
+		timingFunction="linear"
+		swiping={false}
+		arrows={false}
+		dots={false}
+		autoplay={true}
+		autoplayDuration={5000}
+	>
 		<img height="500px" src="/carousel0.jpg" alt="colourful mountains" />
 		<img height="500px" src="/carousel1.jpg" alt="dark and raining" />
 		<div id="ad">ad goes here <a href="/ad">click</a></div>
