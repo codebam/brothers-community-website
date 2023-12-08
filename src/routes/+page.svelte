@@ -24,15 +24,17 @@
 		<div id="ad">ad goes here <a href="/ad">click</a></div>
 	</Carousel>
 {/if}
-<h1>Brothers International Community</h1>
-<p>
-	<a href="mailto:brotherscommunityinternational@gmail.com">
-		brotherscommunityinternational@gmail.com
-	</a>
-</p>
-<h4>Join brothers community</h4>
-<h5>Build trustworthy international connections</h5>
-<Posts posts={data.posts} />
+<div id="content">
+	<h1>Brothers International Community</h1>
+	<p>
+		<a href="mailto:brotherscommunityinternational@gmail.com">
+			brotherscommunityinternational@gmail.com
+		</a>
+	</p>
+	<h4>Join brothers community</h4>
+	<h5>Build trustworthy international connections</h5>
+	<Posts posts={data.posts} />
+</div>
 
 <style>
 	#topbar {
@@ -40,6 +42,9 @@
 		justify-content: space-between;
 	}
 	#ad {
+		text-align: center;
+	}
+	#content {
 		text-align: center;
 	}
 </style>
